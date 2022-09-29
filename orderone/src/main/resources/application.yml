@@ -1,0 +1,10 @@
+server:
+  port: 7075
+spring:
+  application:
+    name: orderone
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        cluster-name: hz
